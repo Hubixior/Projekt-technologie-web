@@ -604,3 +604,80 @@ font-size: 20px;
 	color: grey;
 	
 }
+/* Dla ekranów o szerokości mniejszej niż 600px */
+@media only screen and (max-width: 600px) {
+    #fir {
+        font-size: 32px;
+        margin-left: 10%;
+    }
+    #sec {
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    #pro {
+        font-size: 30px;
+        padding-top: 15%;
+        padding-left: 5%;
+    }
+    #ui {
+        font-size: 16px;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+}
+
+/* Dla ekranów o szerokości mniejszej niż 1200px */
+@media only screen and (max-width: 1200px) {
+    #fir {
+        margin-left: 10%;
+    }
+    #sec {
+        margin-left: 10%;
+    }
+}
+
+/* Dla ekranów o szerokości większej niż 1200px */
+@media only screen and (min-width: 1200px) {
+    #fir {
+        margin-left: 50%;
+    }
+    #sec {
+        margin-left: 50%;
+    }
+    #pro {
+        padding-top: 10%;
+        padding-left: 8%;
+    }
+    #ui {
+        padding-top: 3%;
+        padding-left: 8%;
+    }
+}
+
+/* Dla ekranów o szerokości większej niż 1800px */
+@media only screen and (min-width: 1800px) {
+    #pro {
+        font-size: 45px;
+        padding-top: 10%;
+        padding-left: 18%;
+    }
+    #ui {
+        font-size: 20px;
+        padding-top: 3%;
+        padding-left: 18%;
+    }
+}
+
+/* Dla ekranów o wysokości mniejszej niż 800px */
+@media only screen and (max-height: 800px) {
+    #pro {
+        padding-top: 5%;
+    }
+}
+
+/* Dla ekranów o wysokości większej niż 1200px */
+@media only screen and (min-height: 1200px) {
+    #pro {
+        padding-top: 15%;
+    }
+}
