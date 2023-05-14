@@ -336,12 +336,15 @@ font-size: 20px;
     height: 600px;
 	background-color: grey;
 	margin-left: 10px;
-
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 #png img {
-    transition-duration: 3s;
+    transition-duration: 3s;	
 
-    display: inline-block;
+	width: 20%;
 }
 #png img:hover {
     transform: scale(1.2);
